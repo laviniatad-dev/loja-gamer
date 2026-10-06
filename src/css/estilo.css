@@ -7,6 +7,20 @@
 @keyframes acender{
     to{
         color: #fff;
-        text-shadow: 0 0 10px #2600ff, 0 0 20px #00fff2;
+        text-shadow: 0 0 10px #dd41dd, 0 0 20px #c76fad;
     }
+}
+
+.titulo {
+    background-image: linear-gradient(to right, #530f53, #c76fad);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align:  center;
+}
+
+.titulo:hover {
+    animation: acender 0.5s forwards;
 }
